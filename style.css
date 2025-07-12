@@ -5,8 +5,7 @@
   color: white;
   margin: 0px;
 }
-
-.container-top {
+#container-top {
     width: auto;
     height: 4.5rem;
     display: flex;
@@ -17,13 +16,13 @@
     background-color: #02A28F;
 }
 
-.container-top > h1 {
+#container-top > h1 {
     font-weight: 700;
     font-size: 2.25rem;
     font-style: bold;
 }
 
-.section-1 {
+#section-1 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -31,7 +30,7 @@
    
 }
 
-.section-1 > .img-opiniao-fabio{
+.img-opiniao-fabio{
   display: flex;
   width: 46.5rem;
   height: 24.5rem;
@@ -47,7 +46,7 @@
 
 .container {
   width: 22.5rem;
-  height: 24.5rem;
+  height: 25rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -78,3 +77,44 @@
   height: 6.8rem;
 }
 
+#section-2 {
+  display: flex;
+  justify-content: center;
+  background-color: aqua;
+}
+
+.div-posts-recentes {
+  width: 46.5rem;
+  height: 30.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center ;
+  justify-content: center;
+  background-color: blue;
+}
+
+.texto-section-2 {
+  width: 42.5rem;
+  height: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.texto-section-2 > a {
+  font-size: 14px;
+  padding-right: 1.5rem;
+}
+
+.div-cards {
+  width: 43rem;
+  height: 25rem;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: brown;
+}
+
+.card-style {
+  width: 22.5rem;
+  height: 24.5rem;
+}
