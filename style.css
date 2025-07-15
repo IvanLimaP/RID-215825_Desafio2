@@ -44,13 +44,53 @@
 }
 
 .item3 {
+  width: 48rem;
+  height: 40rem;
+  
   order: 3;
-  background-color: violet;
+}
+
+.grid-cards {
+  width: 48rem;
+  height: 40rem;
+  position: relative;
+  display: grid;
+  justify-items: center;
+  justify-self: center;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-cards > img {
+  height: 24.7rem;
+  width: 22.5rem;
+}
+
+.grid-cards > img:hover {
+  opacity: 0.9;
+  transition: 0.5s;
+  transform: scale(1.01);
+  cursor: pointer;
 }
 
 .item4 {
-  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 22.5rem;
+  height: 27.5rem;
   order: 4;
+}
+
+.footer {
+  width: auto;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: #fff;
+  margin-top: 28rem;
+  background-color: #02A28F;
 }
 
 .grid-divs {
@@ -58,13 +98,25 @@
   flex-direction: column;
   align-items: center;
   width: 22.5rem;
-  height: 28.5rem;
+  height: 27.5rem;
   border-radius: 0.6rem;
+}
+
+.item4 > img {
+  width: 22.5rem;
+  height: 1.25rem;
+  margin-bottom: .5rem;
+}
+
+.item4 > img:hover {
+  transition: 0.5s;
+  transform: scale(1.02);
+  cursor: pointer;
 }
 
 .grid-divs > img {
   width: 23.5rem;
-  height: 7rem;
+  height: 8rem;
   margin-top: 0.8rem;
 }
 
@@ -76,8 +128,8 @@
 
 #sessao-1 {
   width: 76rem;
-  height: 60rem;
-  position: relative;
+  height: 56rem;
+  position:relative;
   display: grid;
   justify-items: center;
   justify-self: center;
@@ -87,7 +139,7 @@
 
 .banner {
   width: 46.5rem;
-  height: 25rem;
+  height: 24.6rem;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 0.6rem;
@@ -102,6 +154,37 @@
   cursor: pointer;
   
 }
+
+.grid-text-item3 {
+  color: #fff;
+  width: 47rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 1.25rem;
+  border-radius: 10px;
+  box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.212);
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+  background-color: #02A28F;
+}
+
+.item3 >.grid-text-item3 > a {
+  font-weight: 500;
+  font-size: .8rem;
+  color: #fff;
+  margin-right: 1.5rem;
+}
+
+.item3 >.grid-text-item3 > a:hover {
+  transition: 0.5s;
+  transform: scale(1.02);
+  cursor: pointer;
+} 
 
 .grid-text {
   color: #fff;
