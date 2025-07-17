@@ -202,7 +202,7 @@
   background-color: #02A28F;
 }
 
-@media only screen and (max-width: 384px) {
+@media only screen and (min-width: 374px) and (max-width: 767px) {
   .header-top {
     width: auto;
     height: 4.4rem;
