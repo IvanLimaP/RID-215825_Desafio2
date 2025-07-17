@@ -24,7 +24,6 @@
   font-weight: 700;
   font-style: bold;
   font-size: 2.25rem;
-  background-color: #02A28F;
 
 }
 
@@ -204,5 +203,74 @@
 }
 
 @media only screen and (max-width: 384px) {
+  .header-top {
+    width: auto;
+    height: 4.4rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-left: 0;
+  }
 
+  #sessao-1 {
+  width: 24rem;
+  height: 160rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+  }
+
+  .banner {
+    width: 22rem;
+    height: 24.6rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0.6rem;
+    color: #fff;
+  }
+
+  .item2 {
+    order: 3;
+  }
+
+  .item3 {
+    order: 2;
+  }
+
+  .grid-text-item3 {
+  color: #fff;
+  width: 22rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+  margin-left: 12.5rem;
+  }
+
+  .grid-cards {
+  width: 48rem;
+  height: 40rem;
+  position: relative;
+  display: grid;
+  justify-items: center;
+  justify-self: center;
+  grid-template-columns: 1fr;
+  margin-top: 2rem;
+}
+
+.grid-cards > img {
+  width: 25rem;
+}
+
+.grid-divs {
+  margin-top: 65rem;
+}
+
+
+.footer {
+  margin-top: 0;
+}
 }
